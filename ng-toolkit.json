@@ -1,0 +1,15 @@
+{
+  "serverless": {
+    "provider": "aws",
+    "project": "angular-s3",
+    "skipInstall": false,
+    "directory": ".",
+    "lambdaTS": false,
+    "offline": false,
+    "clientProject": "angular-s3",
+    "serverless": {
+      "aws": {},
+      "gcloud": {}
+    }
+  }
+}
