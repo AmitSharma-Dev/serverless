@@ -1,13 +1,15 @@
-## Local Development
-start local server : sls offline start
-installing local dynamoDB : sls dynamodb install
+# Local Development
+## start local server :
+    sls offline start
+## installing local dynamoDB : 
+    sls dynamodb install
 
-## Deploy
+# Deploy
 1. npm i -g serverless
 2. sls config credentials --provider aws --key {{iamKey}} --secret {{iamSecret}}
 3. sls deploy
 
-## Test
+# Test DynamoDB endpoints
 create user : 
     POST ${BASE_DOMAIN}/users HTTP/1.1
     content-type: application/json
