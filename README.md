@@ -10,7 +10,7 @@
 3. sls deploy
 
 # Test DynamoDB endpoints
-create user : 
+## create user : 
     POST ${BASE_DOMAIN}/users HTTP/1.1
     content-type: application/json
 
@@ -19,6 +19,6 @@ create user :
         "name": "amit sharma"
     }
 
-retrieve the user : 
+## retrieve the user : 
     GET ${BASE_DOMAIN}/amit1 HTTP/1.1
     content-type: application/json
